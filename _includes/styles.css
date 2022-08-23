@@ -33,6 +33,10 @@ main {
 img {
     max-width: 100%;
 }
+svg {
+    height: 16px;
+    margin-right: 4px;;
+}
 label {
     display: block;
 }
