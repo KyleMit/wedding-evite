@@ -1,0 +1,25 @@
+{
+  "name": "wedding-evite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy --passthroughall",
+    "serve": "npx eleventy --serve --passthroughall",
+    "clean": "npx rimraf _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleMit/wedding-evite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleMit/wedding-evite/issues"
+  },
+  "homepage": "https://github.com/KyleMit/wedding-evite#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
